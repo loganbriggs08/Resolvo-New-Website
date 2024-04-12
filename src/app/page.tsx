@@ -31,46 +31,48 @@ export default function Home() {
       <div className={styles.top_seperator}/>
 
       <div className={styles.top_section}>
-        <div className={styles.top_section_left_side}>
-          <p className={styles.we_develop_text}>WE DEVELOP</p>
+        <div className={styles.slide_down}>
+          <div className={styles.top_section_left_side}>
+            <p className={styles.we_develop_text}>WE DEVELOP</p>
 
-          <h1 className={styles.changing_text}>{words[currentIndex]}<a className={styles.changing_text_full_stop}>.</a></h1>
+            <h1 className={styles.changing_text}>{words[currentIndex]}<a className={styles.changing_text_full_stop}>.</a></h1>
 
-          <p className={styles.changing_text_description}>
-            Resolve Problems, don’t re-solve. We believe problems should only have <br />
-            to be solved once and once only. Our code is designed to last from <br />
-            the beginning.
-          </p>
+            <p className={styles.changing_text_description}>
+              Resolve Problems, don’t re-solve. We believe problems should only have <br />
+              to be solved once and once only. Our code is designed to last from <br />
+              the beginning.
+            </p>
 
-          <div className={styles.top_section_buttons}>
-            <button className={styles.top_section_view_work_button} onClick={() => {handleScrollToViewWork()}}>
-              View Work
+            <div className={styles.top_section_buttons}>
+              <button className={styles.top_section_view_work_button} onClick={() => {handleScrollToViewWork()}}>
+                View Work
 
-              <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg" className={styles.view_work_arrow}>
-                <path d="M1 9L5 5L1 1" stroke="#FAFAFA" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </button>
+                <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg" className={styles.view_work_arrow}>
+                  <path d="M1 9L5 5L1 1" stroke="#FAFAFA" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
 
-            <a onClick={() => {handleScrollToContact()}} className={styles.top_section_contact_us_button}>Contact Us</a>
-          </div>
+              <a onClick={() => {handleScrollToContact()}} className={styles.top_section_contact_us_button}>Contact Us</a>
+            </div>
 
-          <div className={styles.statistics_wrapper}>
-            <div className={styles.statistics_divider}><a></a></div>
+            <div className={styles.statistics_wrapper}>
+              <div className={styles.statistics_divider}><a></a></div>
 
-            <div className={styles.statistical_numbers}>
-              <div className={styles.statistic_text}>
-                <h1 className={styles.number_statistic}>500k+</h1>
-                <p className={styles.description_statistic}>Lines of Code Written</p>
-              </div>
+              <div className={styles.statistical_numbers}>
+                <div className={styles.statistic_text}>
+                  <h1 className={styles.number_statistic}>500k+</h1>
+                  <p className={styles.description_statistic}>Lines of Code Written</p>
+                </div>
 
-              <div className={styles.statistic_text}>
-                <h1 className={styles.number_statistic}>50+</h1>
-                <p className={styles.description_statistic}>Projects Completed</p>
-              </div>
+                <div className={styles.statistic_text}>
+                  <h1 className={styles.number_statistic}>50+</h1>
+                  <p className={styles.description_statistic}>Projects Completed</p>
+                </div>
 
-              <div className={styles.statistic_text}>
-                <h1 className={styles.number_statistic}>50+</h1>
-                <p className={styles.description_statistic}>Positive Reviews</p>
+                <div className={styles.statistic_text}>
+                  <h1 className={styles.number_statistic}>50+</h1>
+                  <p className={styles.description_statistic}>Positive Reviews</p>
+                </div>
               </div>
             </div>
           </div>

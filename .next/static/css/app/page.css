@@ -11,6 +11,35 @@
   margin-top: 10%;
 }
 
+.page_slide_down__Bqi4h {
+  animation: page_slide_down__Bqi4h 1.25s ease-in-out forwards;
+}
+
+@keyframes page_slide_down__Bqi4h {
+  from {
+    transform: translateY(-50vh);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.page_slide_left__RgZXy {
+  animation: page_slide_left__RgZXy 1.25s ease-in-out forwards;
+  transform: translateX(50vw);
+}
+
+@keyframes page_slide_left__RgZXy {
+  from {
+    transform: translateX(50vw);
+  }
+  to {
+    transform: translateX(0); 
+  }
+}
+
 .page_top_section__ztNgw {
   width: 80%;
   margin: 0 auto;
@@ -62,10 +91,10 @@
   font-family: "Outfit";
   font-weight: 200;
   font-size: 0.9rem;
-  padding-left: 1.6rem;
-  padding-right: 1.6rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
   border-radius: 0.4rem;
   color: rgba(250, 250, 250, 1);
   background-color: rgba(221, 21, 70, 1);
@@ -84,10 +113,10 @@
   font-family: "Outfit";
   font-weight: 200;
   font-size: 0.9rem;
-  padding-left: 1.6rem;
-  padding-right: 1.6rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
   border-radius: 0.4rem;
   color: rgba(250, 250, 250, 1);
   background-color: transparent;
