@@ -2,6 +2,7 @@
 
 import styles from "./page.module.css";
 import { useState, useEffect } from "react";
+import { handleScrollToContact, handleScrollToViewWork } from "@/functions/scroll";
 
 export default function Home() {
   const words: string[] = ["MOBILE APPS", "DESKTOP APPS", "WEBSITES", "DISCORD BOTS"];
@@ -42,7 +43,7 @@ export default function Home() {
           </p>
 
           <div className={styles.top_section_buttons}>
-            <button className={styles.top_section_view_work_button}>
+            <button className={styles.top_section_view_work_button} onClick={() => {handleScrollToViewWork()}}>
               View Work
 
               <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg" className={styles.view_work_arrow}>
@@ -50,7 +51,7 @@ export default function Home() {
               </svg>
             </button>
 
-            <a href="mailto:hello@resolvo.dev" className={styles.top_section_contact_us_button}>Contact Us</a>
+            <a onClick={() => {handleScrollToContact()}} className={styles.top_section_contact_us_button}>Contact Us</a>
           </div>
 
           <div className={styles.statistics_wrapper}>
@@ -90,7 +91,7 @@ export default function Home() {
 
       <div className={styles.top_seperator}/>
 
-      <div className={styles.what_have_we_made}>
+      <div className={styles.what_have_we_made} id="view-work">
         <h1 className={styles.header_text}>What have we made?</h1>
         <p className={styles.description_text}>
           We have previously worked on a range of projects from full stack <br />
@@ -147,7 +148,7 @@ export default function Home() {
 
       <div className={styles.top_seperator} />
 
-      <div className={styles.why_choose_us}>
+      <div className={styles.why_choose_us} id="why-choose-us">
         <h1 className={styles.header_text}>Why choose us?</h1>
         <p className={styles.description_text}>
           There are thousands of developers that would code your project for<br />
@@ -191,7 +192,7 @@ export default function Home() {
 
       <div className={styles.top_seperator} />
 
-      <div className={styles.need_to_contact_us}>
+      <div className={styles.need_to_contact_us} id="contact-us">
         <h1 className={styles.header_text}>Need to contact us?</h1>
         <p className={styles.description_text}>
           What are you waiting for? Contact us and lets build your project <br />
