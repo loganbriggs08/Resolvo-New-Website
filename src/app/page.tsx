@@ -36,8 +36,8 @@ export default function Home() {
           <h1 className={styles.changing_text}>{words[currentIndex]}<a className={styles.changing_text_full_stop}>.</a></h1>
 
           <p className={styles.changing_text_description}>
-            Resolve Problems, don’t re-solve. We believe problems should only have<br />
-            to be solved once and once only. Our code is designed to last from<br />
+            Resolve Problems, don’t re-solve. We believe problems should only have <br />
+            to be solved once and once only. Our code is designed to last from <br />
             the beginning.
           </p>
 
@@ -50,7 +50,7 @@ export default function Home() {
               </svg>
             </button>
 
-            <button className={styles.top_section_contact_us_button}>Contact Us</button>
+            <a href="mailto:hello@resolvo.dev" className={styles.top_section_contact_us_button}>Contact Us</a>
           </div>
 
           <div className={styles.statistics_wrapper}>
@@ -107,6 +107,8 @@ export default function Home() {
             <p className={styles.description_card_text}>As soon as we gather all the information needed about your project we begin to start build it.</p>
           </div>
 
+          <div className={styles.card_seperator}/>
+
           <div className={styles.choose_us_card}>
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M9.99992 18.3333C9.99992 18.3333 16.6666 15 16.6666 9.99996V4.16663L9.99992 1.66663L3.33325 4.16663V9.99996C3.33325 15 9.99992 18.3333 9.99992 18.3333Z" stroke="#FAFAFA" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
@@ -117,6 +119,8 @@ export default function Home() {
             <p className={styles.description_card_text}>We have a long history of providing a high quality of service & support to our loyalcustomer base.</p>
           </div>
 
+          <div className={styles.card_seperator}/>
+
           <div className={styles.choose_us_card}>
             <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M11.2499 5.24994C11.0972 5.40572 11.0117 5.61515 11.0117 5.83328C11.0117 6.0514 11.0972 6.26083 11.2499 6.41661L12.5832 7.74994C12.739 7.90263 12.9484 7.98816 13.1665 7.98816C13.3847 7.98816 13.5941 7.90263 13.7499 7.74994L16.8915 4.60828C17.3106 5.53427 17.4374 6.56597 17.2553 7.5659C17.0731 8.56582 16.5905 9.48648 15.8718 10.2052C15.1531 10.9239 14.2324 11.4065 13.2325 11.5887C12.2326 11.7708 11.2009 11.644 10.2749 11.2249L4.51655 16.9833C4.18503 17.3148 3.73539 17.501 3.26655 17.501C2.79771 17.501 2.34807 17.3148 2.01655 16.9833C1.68503 16.6518 1.49878 16.2021 1.49878 15.7333C1.49878 15.2644 1.68503 14.8148 2.01655 14.4833L7.77488 8.72494C7.35585 7.79895 7.22898 6.76725 7.41116 5.76732C7.59335 4.7674 8.07595 3.84674 8.79465 3.12804C9.51334 2.40935 10.434 1.92675 11.4339 1.74456C12.4339 1.56237 13.4656 1.68925 14.3915 2.10828L11.2582 5.24161L11.2499 5.24994Z" stroke="#FAFAFA" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
@@ -126,6 +130,16 @@ export default function Home() {
             <p className={styles.description_card_text}>Even after your project is completed we will continue to provided you with continued high quality support.</p>
           </div>      
         </div>
+      </div>
+
+      <div className={styles.top_seperator} />
+
+      <div className={styles.what_have_we_made}>
+        <h1 className={styles.header_text}>What have we made?</h1>
+        <p className={styles.description_text}>
+          We have previously worked on a range of projects from full stack <br />
+          websites to iOS & Android apps.
+        </p>
       </div>
 
     </main>
