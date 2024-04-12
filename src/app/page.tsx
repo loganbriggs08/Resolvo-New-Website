@@ -90,6 +90,63 @@ export default function Home() {
 
       <div className={styles.top_seperator}/>
 
+      <div className={styles.what_have_we_made}>
+        <h1 className={styles.header_text}>What have we made?</h1>
+        <p className={styles.description_text}>
+          We have previously worked on a range of projects from full stack <br />
+          websites to iOS & Android apps.
+        </p>
+
+        <div className={styles.project_cards}>
+          <div className={styles.project_card}>
+            <img src="resolvo_development_website.png" className={styles.project_image} />
+
+
+            <h1 className={styles.project_title_text}>
+              <a className={styles.new_tag}>NEW</a> Resolvo Website - 2024
+            </h1>
+            <p className={styles.project_description_card_text}>This website was made as a way to reach potential clients and was coded in React (NextJS) & Typescript along with a sprinkle of CSS.</p>
+
+            <a href="https://resolvo.dev" className={styles.project_button}>
+              View Website 
+            </a>
+          </div>
+
+          <div className={styles.card_seperator}/>
+
+          <div className={styles.project_card}>
+            <img src="resolvo_development_old_website.png" className={styles.project_image} />
+
+            <h1 className={styles.project_title_text}>
+              <a className={styles.new_tag}>OLD</a> Resolvo Website - 2023
+            </h1>
+            <p className={styles.project_description_card_text}>This was the old Resolvo website which was used to reach clients and was coded in React (NextJS) and Typescript with some CSS.</p>
+
+            <a href="https://github.com/loganbriggs08/Resolvo-Website" target="_blank" className={styles.project_button}>
+              View Github 
+            </a>
+          </div>
+
+          <div className={styles.card_seperator}/>
+          
+          <div className={styles.project_card}>
+            <img src="your_project.png" className={styles.project_image} />
+
+            <h1 className={styles.project_title_text}>
+              <a className={styles.new_tag}>NEW</a> Your Project - {new Date().getFullYear()}
+            </h1>
+            <p className={styles.project_description_card_text}>Your project could be displayed here after we finish it. Contact us to complete your project and then request your project to be shown here.</p>
+
+            <a href="mailto:hello@resolvo.dev" className={styles.project_button}>
+              Contact Us
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <div className={styles.top_seperator} />
+
       <div className={styles.why_choose_us}>
         <h1 className={styles.header_text}>Why choose us?</h1>
         <p className={styles.description_text}>
@@ -134,14 +191,24 @@ export default function Home() {
 
       <div className={styles.top_seperator} />
 
-      <div className={styles.what_have_we_made}>
-        <h1 className={styles.header_text}>What have we made?</h1>
+      <div className={styles.need_to_contact_us}>
+        <h1 className={styles.header_text}>Need to contact us?</h1>
         <p className={styles.description_text}>
-          We have previously worked on a range of projects from full stack <br />
-          websites to iOS & Android apps.
+          What are you waiting for? Contact us and lets build your project <br />
+          together - if your still not convinced request a call.
         </p>
+
+
+        <div className={styles.top_section_buttons}>
+          <a href="mailto:hello@resolvo.dev" className={styles.bottom_section_contact_us_button}>Contact Us</a>
+
+          <button className={styles.bottom_section_view_work_button}>
+            View Work
+          </button>
+        </div>
       </div>
 
+      <div className={styles.top_seperator} />
     </main>
   );
 }
