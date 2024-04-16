@@ -87,7 +87,7 @@
 }
 
 .page_bottom_section_buttons__xjAUM {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .page_top_section_view_work_button__QlSYm {
@@ -396,6 +396,18 @@ view_website_button
   padding-left: 0.5rem;
   border-radius: 0.3rem;
   background-color: rgba(221, 21, 70, 1);
+}
+
+.page_red_tag__s1QXU {
+  font-weight: 200;
+  font-size: 0.8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 2222rem;
+  color: rgba(221, 21, 70, 1);
+  background-color: rgba(41, 11, 20, 1);
 }
 
 @media (max-width: 593px) {

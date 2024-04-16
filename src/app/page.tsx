@@ -195,6 +195,7 @@ export default function Home() {
       <div className={styles.top_seperator} />
 
       <div className={styles.need_to_contact_us} id="contact-us">
+        <a className={styles.red_tag}>Let's work together.</a>
         <h1 className={styles.header_text}>Need to contact us?</h1>
         <p className={styles.description_text}>
           What are you waiting for? Contact us and lets build your project <br />
