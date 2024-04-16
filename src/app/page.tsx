@@ -164,7 +164,7 @@ export default function Home() {
             </svg>
 
             <h1 className={styles.header_card_text}>Quick Delivery</h1>
-            <p className={styles.description_card_text}>As soon as we gather all the information needed about your project we begin to start build it.</p>
+            <p className={styles.description_card_text}>As soon as we gather all the information needed about your project we begin to start building it.</p>
           </div>
 
           <div className={styles.card_seperator}/>
@@ -202,7 +202,7 @@ export default function Home() {
         </p>
 
 
-        <div className={styles.top_section_buttons}>
+        <div className={styles.bottom_section_buttons}>
           <a href="mailto:hello@resolvo.dev" className={styles.bottom_section_contact_us_button}>Contact Us</a>
 
           <button className={styles.bottom_section_view_work_button}>

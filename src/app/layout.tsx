@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import styles from "./layout.module.css";
+import NavbarComponent from "@/components/navbar";
 
 const outfitFont = Outfit({ subsets: ["latin"] });
 
@@ -42,6 +43,7 @@ export default function RootLayout({
         <title>Resolvo - Resolve Problems, Dont Re-Solve.</title>
       </head>
       <body className={`${styles.body} ${outfitFont.className}`}>
+        {/* <NavbarComponent /> */}
         {children}
       </body>
     </html>
