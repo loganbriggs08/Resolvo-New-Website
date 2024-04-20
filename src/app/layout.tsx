@@ -6,12 +6,12 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 const outfitFont = Outfit({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Resolvo - Resolve Problems, Dont Re-Solve.",
+  title: "Resolvo Development",
   description: "Crafting tailored software solutions to meet the end users needs.",
   themeColor: "#DD1546",
 
   openGraph: {
-    siteName: "Resolvo",
+    siteName: "Resolve Problems, Dont Re-Solve.",
     
     title: "Resolvo - Resolve Problems, Dont Re-Solve.",
     description: "Crafting tailored software solutions to meet the end users needs.",
@@ -38,7 +38,7 @@ export default function RootLayout({
         <meta property="og:site_name" content="Resolvo"></meta>
         <meta property="og:title" content="Resolvo - Resolve Problems, Dont Re-Solve."></meta>
         <meta property="og:description" content="Crafting tailored software solutions to meet the end users needs."></meta>
-        <meta property="og:image" content="https://resolvo.dev/resolvo_development_website.png"></meta>
+        <meta property="og:image" content="https://resolvo.dev/og_website_image.png"></meta>
 
         <title>Resolvo - Resolve Problems, Dont Re-Solve.</title>
       </head>
