@@ -3,6 +3,7 @@
 import styles from "./page.module.css";
 import { useState, useEffect } from "react";
 import { handleScrollToContact, handleScrollToViewWork } from "@/functions/scroll";
+import NavbarComponent from "@/components/navbar";
 
 export default function Home() {
   const words: string[] = ["MOBILE APPS", "DESKTOP APPS", "WEBSITES", "DISCORD BOTS"];
@@ -27,10 +28,12 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
+      {/* <NavbarComponent /> */}
 
       <div className={styles.top_seperator}/>
 
       <div className={styles.top_section}>
+        
         <div className={styles.slide_down}>
           <div className={styles.top_section_left_side}>
             <p className={styles.we_develop_text}>WE DEVELOP</p>
@@ -206,10 +209,12 @@ export default function Home() {
         <div className={styles.bottom_section_buttons}>
           <a href="mailto:hello@resolvo.dev" className={styles.bottom_section_contact_us_button}>Contact Us</a>
 
-          <button className={styles.bottom_section_view_work_button}>
+          <button className={styles.bottom_section_view_work_button} onClick={() => {handleScrollToViewWork()}}>
             View Work
           </button>
         </div>
+
+        <img src="grid_background.png" className={styles.grid_background} />
       </div>
 
       <div className={styles.top_seperator} />

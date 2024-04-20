@@ -88,6 +88,7 @@
 
 .page_bottom_section_buttons__xjAUM {
   margin-top: 3rem;
+  z-index: 1;
 }
 
 .page_top_section_view_work_button__QlSYm {
@@ -236,6 +237,16 @@
   width: 60%;
   margin: 0 auto;
   text-align: center;
+  position: relative;
+}
+
+.page_grid_background__RCQ5z {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
 }
 
 .page_what_have_we_made__s2PRT {

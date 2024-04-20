@@ -43,7 +43,6 @@ export default function RootLayout({
         <title>Resolvo - Resolve Problems, Dont Re-Solve.</title>
       </head>
       <body className={`${styles.body} ${outfitFont.className}`}>
-        {/* <NavbarComponent /> */}
         {children}
       </body>
     </html>
