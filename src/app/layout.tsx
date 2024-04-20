@@ -38,13 +38,12 @@ export default function RootLayout({
         <meta property="og:site_name" content="Resolvo"></meta>
         <meta property="og:title" content="Resolvo - Resolve Problems, Dont Re-Solve."></meta>
         <meta property="og:description" content="Crafting tailored software solutions to meet the end users needs."></meta>
-        <meta property="og:image" content="https://resolvo.dev/website_screenshot.png"></meta>
+        <meta property="og:image" content="https://resolvo.dev/resolvo_development_website.png"></meta>
 
         <title>Resolvo - Resolve Problems, Dont Re-Solve.</title>
       </head>
       <body className={`${styles.body} ${outfitFont.className}`}>
         {children}
-        <GoogleAnalytics gaId="G-N845XLB47J" />
       </body>
     </html>
   );
