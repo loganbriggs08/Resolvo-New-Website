@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import styles from "./layout.module.css";
-import NavbarComponent from "@/components/navbar";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const outfitFont = Outfit({ subsets: ["latin"] });
 
@@ -44,6 +44,7 @@ export default function RootLayout({
       </head>
       <body className={`${styles.body} ${outfitFont.className}`}>
         {children}
+        <GoogleAnalytics gaId="G-N845XLB47J" />
       </body>
     </html>
   );
