@@ -1,0 +1,39 @@
+.footer {
+    color: white;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    box-sizing: border-box;
+}
+  
+.footer_bottom {
+    text-align: center;
+    font-size: 0.75em;
+    color: #8a8d93;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+  
+.copy_right_text {
+    font-weight: 200;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+  
+.current_year {
+    font-weight: 200;
+    color: #ffffff;
+}
+
+.footer_bottom_links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bottom_link {
+    font-weight: 200;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+  

@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import styles from "./layout.module.css";
-import { GoogleAnalytics } from '@next/third-parties/google'
+import FooterComponent from "@/components/footer";
+// import { GoogleAnalytics } from '@next/third-parties/google'
 
 const outfitFont = Outfit({ subsets: ["latin"] });
 
@@ -44,6 +45,7 @@ export default function RootLayout({
       </head>
       <body className={`${styles.body} ${outfitFont.className}`}>
         {children}
+        {/* <FooterComponent /> */}
       </body>
     </html>
   );
