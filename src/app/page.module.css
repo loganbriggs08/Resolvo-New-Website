@@ -262,6 +262,12 @@
   text-align: center;
 }
 
+.who_are_we {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .header_text {
   font-size: 2.25rem;
   font-weight: 500;
@@ -293,6 +299,14 @@
 }
 
 .testimonial_cards {
+  gap: 3%;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  margin-top: 5%;
+}
+
+.developer_profile_cards {
   gap: 3%;
   display: flex;
   flex-direction: row;
@@ -453,6 +467,17 @@ view_website_button
   background-color: rgba(221, 21, 70, 1);
 }
 
+.developer_profile_tag {
+  margin-right: 2%;
+  font-size: 0.8rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  border-radius: 0.3rem;
+  background-color: rgba(38, 38, 38, 1);
+}
+
 .red_tag {
   font-weight: 200;
   font-size: 0.8rem;
@@ -483,6 +508,125 @@ view_website_button
   margin-top: 0.7rem;
   margin-bottom: 2%;
   color: rgba(138, 138, 147, 1);
+}
+
+.developer_profile_card_top_section {
+  display: flex;
+  flex-direction: row;
+}
+
+.developer_profile_card {
+  text-align: left;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  width: 50%;
+  background-color: rgba(17, 17, 19, 1);
+  outline: 0.1rem solid rgba(48, 46, 46, 1);
+  transition: transform 0.4s ease-in-out;
+}
+
+.developer_profile_card:hover {
+  cursor: pointer;
+  transform: scale(1.025);
+}
+
+.developer_profile_card_photo {
+  width: 13%;
+  height: 13%;
+  border-radius: 500rem;
+}
+
+.developer_profile_card_name {
+  margin-top: 5%;
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-bottom: auto;
+}
+
+.developer_profile_card_location {
+  font-size: 0.875rem;
+  font-weight: 200;
+  margin-top: 0.7rem;
+  margin-bottom: 2%;
+  color: rgba(138, 138, 147, 1);
+}
+
+.developer_profile_card_position {
+  font-size: 0.875rem;
+  font-weight: 200;
+  margin-top: 0.7rem;
+  margin-bottom: 2%;
+  margin-left: 0.4rem;
+}
+
+.developer_profile_card_top_section_text {
+  margin-left: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.developer_profile_card_description_text {
+  font-size: 0.875rem;
+  font-weight: 200;
+  margin-top: 0.7rem;
+  margin-bottom: 2%;
+  margin-top: 5%;
+}
+
+.developer_profile_card_bottom_buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+
+.developer_profile_card_view_cv_button {
+  text-decoration: none;
+  border: none;
+  font-family: "Outfit";
+  font-weight: 200;
+  font-size: 0.9rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.4rem;
+  color: rgba(250, 250, 250, 1);
+  background-color: rgba(221, 21, 70, 1);
+}
+
+.developer_profile_card_view_cv_button:hover {
+  cursor: pointer;
+  opacity: 0.925;
+}
+
+.developer_profile_card_email_button {
+  text-decoration: none;
+  margin-left: 1.1rem;
+  border: none;
+  outline: 0.1rem solid rgba(38, 38, 38, 1);
+  font-family: "Outfit";
+  font-weight: 200;
+  font-size: 0.9rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.4rem;
+  color: rgba(250, 250, 250, 1);
+  background-color: transparent;
+}
+
+.developer_profile_card_email_button:hover {
+  cursor: pointer;
+  opacity: 0.925;
+}
+
+.developer_profile_position_name_seperator {
+  margin-bottom: 0.5rem;
+}
+
+.developer_profile_information_title {
+  margin-bottom: 0.4rem;
 }
 
 @media (max-width: 593px) {
@@ -616,6 +760,12 @@ view_website_button
     margin-left: 10%;
   }
 
+  .who_are_we {
+    text-align: left;
+    width: 100%;
+    margin-left: 10%;
+  }
+
   .regular_cards {
     gap: 0%;
     width: 100%;
@@ -643,6 +793,15 @@ view_website_button
     margin-top: 5%; 
   }
 
+  .developer_profile_cards {
+    gap: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 5%; 
+  }
+
   .regular_card {
     width: 70%;
   }
@@ -652,6 +811,12 @@ view_website_button
   }
 
   .testimonial_card {
+    width: 70%;
+  }
+
+  .developer_profile_card {
+    margin-left: 0px;
+    margin-right: 0px;
     width: 70%;
   }
 
