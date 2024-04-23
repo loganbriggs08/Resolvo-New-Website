@@ -233,6 +233,12 @@
   text-align: center;
 }
 
+.page_services_we_offer__JmMLy {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .page_need_to_contact_us__v6oKZ {
   width: 60%;
   margin: 0 auto;
@@ -275,7 +281,7 @@
   color: rgba(138, 138, 147, 1);
 }
 
-.page_choose_us_cards__B2Gl0 {
+.page_regular_cards__iG_Qd {
   gap: 3%;
   display: flex;
   flex-direction: row;
@@ -317,7 +323,7 @@
   transform: scale(1.025);
 }
 
-.page_choose_us_card__L796o {
+.page_regular_card__WL1yq {
   padding: 1.5rem;
   border-radius: 0.75rem;
   width: 25%;
@@ -326,7 +332,7 @@
   transition: transform 0.4s ease-in-out;
 }
 
-.page_choose_us_card__L796o:hover {
+.page_regular_card__WL1yq:hover {
   cursor: pointer;
   transform: scale(1.025); 
 }
@@ -591,6 +597,12 @@ view_website_button
     margin-left: 10%;
   }
 
+  .page_services_we_offer__JmMLy {
+    text-align: left;
+    width: 100%;
+    margin-left: 10%;
+  }
+
   .page_need_to_contact_us__v6oKZ {
     text-align: left;
     width: 100%;
@@ -609,7 +621,7 @@ view_website_button
     margin-left: 10%;
   }
 
-  .page_choose_us_cards__B2Gl0 {
+  .page_regular_cards__iG_Qd {
     gap: 0%;
     width: 100%;
     display: flex;
@@ -636,7 +648,7 @@ view_website_button
     margin-top: 5%; 
   }
 
-  .page_choose_us_card__L796o {
+  .page_regular_card__WL1yq {
     width: 70%;
   }
 
