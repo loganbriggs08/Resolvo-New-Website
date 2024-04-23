@@ -153,6 +153,89 @@ export default function Home() {
         </div>
       </div>
 
+      <div className={styles.top_seperator} />
+
+      <div className={styles.who_are_we}>
+      <h1 className={styles.header_text}>Who are we?</h1>
+        <p className={styles.description_text}>
+          We are currently a one man band however this does not limit the services<br />
+          or experience that we have to offer.
+        </p>
+
+        <div className={styles.developer_profile_cards}>
+          <div className={styles.developer_profile_card}>
+            <div className={styles.developer_profile_card_top_section}>
+              <img src="logan_briggs.jpeg" className={styles.developer_profile_card_photo}/>
+
+              <div className={styles.developer_profile_card_top_section_text}>
+                <h1 className={styles.developer_profile_card_name}>
+                  <a className={styles.small_margin_top}></a> Logan Briggs 
+                  <a className={styles.developer_profile_card_position}>- Founder / CEO</a>
+                  <a className={styles.developer_profile_card_location}><br />🇬🇧 England, United Kingdom</a>
+                </h1>
+              </div>
+            </div>
+
+            <div className={styles.developer_profile_card_bottom_section}>
+              <p className={styles.developer_profile_card_description_text}>Hi, I'm Logan! I'm a passionate developer from the UK that has been coding since the age of 9! I have experience in a multitude of programming languages and frameworks and I am constantly expanding my knowledge base.</p>
+            </div>
+
+            {/* <div className={styles.developer_profile_card_information_wrapper}>
+              <div className={styles.developer_profile_card_information}>
+                <p className={styles.developer_profile_information_title}>Role:</p>
+                <a className={styles.developer_profile_tag}>CEO / FOUNDER</a><br/> 
+              </div>
+
+              <div className={styles.developer_profile_card_information}>
+                <p className={styles.developer_profile_information_title}>Languages / Frameworks:</p>
+                <a className={styles.developer_profile_tag}>GOLANG</a><br/> 
+              </div>
+            </div> */}
+
+            <div className={styles.developer_profile_card_bottom_buttons}>
+              <a href="logan_briggs_cv.pdf" target="_blank" className={styles.developer_profile_card_view_cv_button}>View Resume</a>
+              <a href="mailto:logan@resolvo.dev" target="_blank" className={styles.developer_profile_card_email_button}>Send Email</a>
+            </div>
+          </div>
+
+          <div className={styles.card_seperator}></div>
+
+          <div className={styles.developer_profile_card}>
+            <div className={styles.developer_profile_card_top_section}>
+              <img src="blank_profile_picture.png" className={styles.developer_profile_card_photo}/>
+
+              <div className={styles.developer_profile_card_top_section_text}>
+                <h1 className={styles.developer_profile_card_name}>
+                  <a className={styles.small_margin_top}></a> Future You
+                  <a className={styles.developer_profile_card_position}>- Your Role</a>
+                  <a className={styles.developer_profile_card_location}><br />Your Location / Country</a>
+                </h1>
+              </div>
+            </div>
+
+            <div className={styles.developer_profile_card_bottom_section}>
+              <p className={styles.developer_profile_card_description_text}>Have you got a unique skill or talent that might be valuable in our team? if so contact us with your CV and we might have a role available for you. - Roles in Development and Graphic Design are especially valuable to us.</p>
+            </div>
+
+            {/* <div className={styles.developer_profile_card_information_wrapper}>
+              <div className={styles.developer_profile_card_information}>
+                <p className={styles.developer_profile_information_title}>Role:</p>
+                <a className={styles.developer_profile_tag}>CEO / FOUNDER</a><br/> 
+              </div>
+
+              <div className={styles.developer_profile_card_information}>
+                <p className={styles.developer_profile_information_title}>Languages / Frameworks:</p>
+                <a className={styles.developer_profile_tag}>GOLANG</a><br/> 
+              </div>
+            </div> */}
+
+            <div className={styles.developer_profile_card_bottom_buttons}>
+              <a href="mailto:logan@resolvo.dev" target="_blank" className={styles.developer_profile_card_view_cv_button}>Contact Us</a>
+            </div>
+          </div>
+          </div>
+        </div>
+
       <div className={styles.top_seperator}/>
 
       <div className={styles.what_have_we_made} id="view-work">
@@ -320,89 +403,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      <div className={styles.top_seperator} />
-
-      <div className={styles.who_are_we}>
-      <h1 className={styles.header_text}>Who are we?</h1>
-        <p className={styles.description_text}>
-          We are currently a one man band however this does not limit the services<br />
-          or experience that we have to offer.
-        </p>
-
-        <div className={styles.developer_profile_cards}>
-          <div className={styles.developer_profile_card}>
-            <div className={styles.developer_profile_card_top_section}>
-              <img src="logan_briggs.jpeg" className={styles.developer_profile_card_photo}/>
-
-              <div className={styles.developer_profile_card_top_section_text}>
-                <h1 className={styles.developer_profile_card_name}>
-                  <a className={styles.small_margin_top}></a> Logan Briggs 
-                  <a className={styles.developer_profile_card_position}>- Founder / CEO</a>
-                  <a className={styles.developer_profile_card_location}><br />🇬🇧 England, United Kingdom</a>
-                </h1>
-              </div>
-            </div>
-
-            <div className={styles.developer_profile_card_bottom_section}>
-              <p className={styles.developer_profile_card_description_text}>Hi, I'm Logan! I'm a passionate developer from the UK that has been coding since the age of 9! I have experience in a multitude of programming languages and frameworks and I am constantly expanding my knowledge base.</p>
-            </div>
-
-            {/* <div className={styles.developer_profile_card_information_wrapper}>
-              <div className={styles.developer_profile_card_information}>
-                <p className={styles.developer_profile_information_title}>Role:</p>
-                <a className={styles.developer_profile_tag}>CEO / FOUNDER</a><br/> 
-              </div>
-
-              <div className={styles.developer_profile_card_information}>
-                <p className={styles.developer_profile_information_title}>Languages / Frameworks:</p>
-                <a className={styles.developer_profile_tag}>GOLANG</a><br/> 
-              </div>
-            </div> */}
-
-            <div className={styles.developer_profile_card_bottom_buttons}>
-              <a href="logan_briggs_cv.pdf" target="_blank" className={styles.developer_profile_card_view_cv_button}>View Resume</a>
-              <a href="mailto:logan@resolvo.dev" target="_blank" className={styles.developer_profile_card_email_button}>Send Email</a>
-            </div>
-          </div>
-
-          <div className={styles.card_seperator}></div>
-
-          <div className={styles.developer_profile_card}>
-            <div className={styles.developer_profile_card_top_section}>
-              <img src="blank_profile_picture.png" className={styles.developer_profile_card_photo}/>
-
-              <div className={styles.developer_profile_card_top_section_text}>
-                <h1 className={styles.developer_profile_card_name}>
-                  <a className={styles.small_margin_top}></a> Future You
-                  <a className={styles.developer_profile_card_position}>- Your Role</a>
-                  <a className={styles.developer_profile_card_location}><br />Your Location / Country</a>
-                </h1>
-              </div>
-            </div>
-
-            <div className={styles.developer_profile_card_bottom_section}>
-              <p className={styles.developer_profile_card_description_text}>Have you got a unique skill or talent that might be valuable in our team? if so contact us with your CV and we might have a role available for you. - Roles in Development and Graphic Design are especially valuable to us.</p>
-            </div>
-
-            {/* <div className={styles.developer_profile_card_information_wrapper}>
-              <div className={styles.developer_profile_card_information}>
-                <p className={styles.developer_profile_information_title}>Role:</p>
-                <a className={styles.developer_profile_tag}>CEO / FOUNDER</a><br/> 
-              </div>
-
-              <div className={styles.developer_profile_card_information}>
-                <p className={styles.developer_profile_information_title}>Languages / Frameworks:</p>
-                <a className={styles.developer_profile_tag}>GOLANG</a><br/> 
-              </div>
-            </div> */}
-
-            <div className={styles.developer_profile_card_bottom_buttons}>
-              <a href="mailto:logan@resolvo.dev" target="_blank" className={styles.developer_profile_card_view_cv_button}>Contact Us</a>
-            </div>
-          </div>
-          </div>
-        </div>
 
       <div className={styles.top_seperator} />
 
