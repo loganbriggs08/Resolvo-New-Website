@@ -33,6 +33,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <script defer data-domain="resolvo.dev" src="https://plausible.io/js/script.js"></script>
+        
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
         <meta name="theme-color" content="#DD1546"></meta>
 

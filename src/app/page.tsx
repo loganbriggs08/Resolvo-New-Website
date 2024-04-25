@@ -280,62 +280,6 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={styles.top_seperator}/>
-
-      <div className={styles.what_have_we_made} id="view-work">
-        <h1 className={styles.header_text}>What have we made?</h1>
-        <p className={styles.description_text}>
-          We have previously worked on a range of projects from full stack <br />
-          websites to iOS & Android apps.
-        </p>
-
-        <div className={styles.project_cards}>
-          <div className={styles.project_card}>
-            <img src="resolvo_development_website.png" className={styles.project_image} />
-
-
-            <h1 className={styles.project_title_text}>
-              <a className={styles.new_tag}>NEW</a> Resolvo Website
-            </h1>
-            <p className={styles.project_description_card_text}>This website was made as a way to reach potential clients and was coded in React (NextJS) & Typescript along with a sprinkle of CSS.</p>
-
-            <a href="https://resolvo.dev" className={styles.project_button}>
-              View Website 
-            </a>
-          </div>
-
-          <div className={styles.card_seperator}/>
-
-          <div className={styles.project_card}>
-            <img src="solvio_website_cover.png" className={styles.project_image} />
-
-            <h1 className={styles.project_title_text}>
-              <a className={styles.new_tag}>NEW</a> Solvio Website & App
-            </h1>
-            <p className={styles.project_description_card_text}>This was the old Resolvo website which was used to reach clients and was coded in React (NextJS) and Typescript with some CSS.</p>
-
-            <a href="mailto:hello@resolvo.dev" target="_blank" className={styles.project_button}>
-              Request to View
-            </a>
-          </div>
-
-          <div className={styles.card_seperator}/>
-          
-          <div className={styles.project_card}>
-            <img src="your_project.png" className={styles.project_image} />
-
-            <h1 className={styles.project_title_text}>
-              <a className={styles.new_tag}>SOON</a> Your Project Here?
-            </h1>
-            <p className={styles.project_description_card_text}>Your project could be displayed here after we finish it. Contact us to complete your project and then request your project to be shown here.</p>
-
-            <a href="mailto:hello@resolvo.dev" className={styles.project_button}>
-              Contact Us
-            </a>
-          </div>
-        </div>
-      </div>
-
       <div className={styles.top_seperator} />
 
       <div className={styles.what_others_say} id="what-others-say">
@@ -400,6 +344,62 @@ export default function Home() {
 
             <h1 className={styles.testimonial_title_text}><a className={styles.recent_review}>RECENT REVIEW</a> Ross H - <a className={styles.testimonial_location}>United Kingdom</a></h1>
             <p className={styles.testimonial_description_text}>From the start, I was blown away by the company's commitment to clear communication. The team didn't just walk me through the plan; they patiently answered all my questions and tailored it perfectly to my needs. The final product exceeded my expectations – it's not just functional, it's beautifully designed and a joy to use.</p>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.top_seperator}/>
+
+      <div className={styles.what_have_we_made} id="view-work">
+        <h1 className={styles.header_text}>What have we made?</h1>
+        <p className={styles.description_text}>
+          We have previously worked on a range of projects from full stack <br />
+          websites to iOS & Android apps.
+        </p>
+
+        <div className={styles.project_cards}>
+          <div className={styles.project_card}>
+            <img src="resolvo_development_website.png" className={styles.project_image} />
+
+
+            <h1 className={styles.project_title_text}>
+              <a className={styles.new_tag}>NEW</a> Resolvo Website
+            </h1>
+            <p className={styles.project_description_card_text}>This website was made as a way to reach potential clients and was coded in React (NextJS) & Typescript along with a sprinkle of CSS.</p>
+
+            <a href="https://resolvo.dev" className={styles.project_button}>
+              View Website 
+            </a>
+          </div>
+
+          <div className={styles.card_seperator}/>
+
+          <div className={styles.project_card}>
+            <img src="solvio_website_cover.png" className={styles.project_image} />
+
+            <h1 className={styles.project_title_text}>
+              <a className={styles.new_tag}>NEW</a> Solvio Website & App
+            </h1>
+            <p className={styles.project_description_card_text}>This was the old Resolvo website which was used to reach clients and was coded in React (NextJS) and Typescript with some CSS.</p>
+
+            <a href="mailto:hello@resolvo.dev" target="_blank" className={styles.project_button}>
+              Request to View
+            </a>
+          </div>
+
+          <div className={styles.card_seperator}/>
+          
+          <div className={styles.project_card}>
+            <img src="your_project.png" className={styles.project_image} />
+
+            <h1 className={styles.project_title_text}>
+              <a className={styles.new_tag}>SOON</a> Your Project Here?
+            </h1>
+            <p className={styles.project_description_card_text}>Your project could be displayed here after we finish it. Contact us to complete your project and then request your project to be shown here.</p>
+
+            <a href="mailto:hello@resolvo.dev" className={styles.project_button}>
+              Contact Us
+            </a>
           </div>
         </div>
       </div>
