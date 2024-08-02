@@ -1,4 +1,4 @@
-// File: /Users/loganbriggs/Desktop/Projects/Resolvo-New-Website/src/app/layout.tsx
+// File: D:\Coding\Resolvo\Resolvo-New-Website\src\app\layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
